@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		230628C31E6C0C5800B176FD /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230628C21E6C0C5800B176FD /* Data.swift */; };
 		23F4784A1E59A11500C12E24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F478491E59A11500C12E24 /* AppDelegate.swift */; };
 		23F4784C1E59A11500C12E24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F4784B1E59A11500C12E24 /* ViewController.swift */; };
 		23F4784F1E59A11500C12E24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F4784D1E59A11500C12E24 /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		23F478541E59A11500C12E24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F478521E59A11500C12E24 /* LaunchScreen.storyboard */; };
 		23F4785F1E59A11500C12E24 /* cold_checkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F4785E1E59A11500C12E24 /* cold_checkerTests.swift */; };
 		23F4786A1E59A11500C12E24 /* cold_checkerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F478691E59A11500C12E24 /* cold_checkerUITests.swift */; };
+		23F478781E59A4B200C12E24 /* RegisterColdness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F478771E59A4B200C12E24 /* RegisterColdness.swift */; };
+		23F4787A1E59A51500C12E24 /* RegisterResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F478791E59A51500C12E24 /* RegisterResult.swift */; };
+		23F4787C1E59A58400C12E24 /* RegisterClothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F4787B1E59A58400C12E24 /* RegisterClothing.swift */; };
+		23F4787E1E59A5E600C12E24 /* CheckClothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F4787D1E59A5E600C12E24 /* CheckClothing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		230628C21E6C0C5800B176FD /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		23F478461E59A11500C12E24 /* cold_checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cold_checker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F478491E59A11500C12E24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23F4784B1E59A11500C12E24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,10 @@
 		23F478651E59A11500C12E24 /* cold_checkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cold_checkerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F478691E59A11500C12E24 /* cold_checkerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cold_checkerUITests.swift; sourceTree = "<group>"; };
 		23F4786B1E59A11500C12E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23F478771E59A4B200C12E24 /* RegisterColdness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterColdness.swift; sourceTree = "<group>"; };
+		23F478791E59A51500C12E24 /* RegisterResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterResult.swift; sourceTree = "<group>"; };
+		23F4787B1E59A58400C12E24 /* RegisterClothing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterClothing.swift; sourceTree = "<group>"; };
+		23F4787D1E59A5E600C12E24 /* CheckClothing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckClothing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +110,14 @@
 				23F478491E59A11500C12E24 /* AppDelegate.swift */,
 				23F4784B1E59A11500C12E24 /* ViewController.swift */,
 				23F4784D1E59A11500C12E24 /* Main.storyboard */,
+				23F478771E59A4B200C12E24 /* RegisterColdness.swift */,
+				23F478791E59A51500C12E24 /* RegisterResult.swift */,
+				23F4787B1E59A58400C12E24 /* RegisterClothing.swift */,
+				23F4787D1E59A5E600C12E24 /* CheckClothing.swift */,
 				23F478501E59A11500C12E24 /* Assets.xcassets */,
 				23F478521E59A11500C12E24 /* LaunchScreen.storyboard */,
 				23F478551E59A11500C12E24 /* Info.plist */,
+				230628C21E6C0C5800B176FD /* Data.swift */,
 			);
 			path = cold_checker;
 			sourceTree = "<group>";
@@ -256,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				230628C31E6C0C5800B176FD /* Data.swift in Sources */,
+				23F4787C1E59A58400C12E24 /* RegisterClothing.swift in Sources */,
+				23F478781E59A4B200C12E24 /* RegisterColdness.swift in Sources */,
 				23F4784C1E59A11500C12E24 /* ViewController.swift in Sources */,
 				23F4784A1E59A11500C12E24 /* AppDelegate.swift in Sources */,
+				23F4787E1E59A5E600C12E24 /* CheckClothing.swift in Sources */,
+				23F4787A1E59A51500C12E24 /* RegisterResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +504,7 @@
 				23F478701E59A11500C12E24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23F478711E59A11500C12E24 /* Build configuration list for PBXNativeTarget "cold_checkerTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +513,7 @@
 				23F478731E59A11500C12E24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23F478741E59A11500C12E24 /* Build configuration list for PBXNativeTarget "cold_checkerUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +522,7 @@
 				23F478761E59A11500C12E24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

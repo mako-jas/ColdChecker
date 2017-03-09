@@ -10,8 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var buttonRegist: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        buttonRegist.backgroundColor = UIColor(colorLiteralRed: 103/205, green: 204/255, blue: 255/255, alpha: 1)
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
